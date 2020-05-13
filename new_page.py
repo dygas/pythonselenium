@@ -8,7 +8,8 @@ window_names = driver.window_handles
 
 for window in window_names:
     if window != current_window_name:
-        driver.switch_to_window
+        driver.switch_to.window(window)
 
 print(driver.title)
-driver.close()
+driver.switch_to.window(current_window_name)
+print(driver.title)
