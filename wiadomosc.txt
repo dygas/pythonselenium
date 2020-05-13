@@ -1,0 +1,3 @@
+to jest wiadomosc dla kursanta.
+Przeczytaj mnir
+korzystajac z pythona
