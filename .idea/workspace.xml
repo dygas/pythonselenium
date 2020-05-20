@@ -2,21 +2,254 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3666f899-e960-4698-8d21-4184e23ae517" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/element_disoayed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/element_exist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/element_selected.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implicit_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambdda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.projects/dodawanie_dolne_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.projects/test_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/_argcomplete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/_code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/_code/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/_code/source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/_io/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/_io/saferepr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/assertion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/assertion/rewrite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/assertion/truncate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/assertion/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/cacheprovider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/capture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/config/argparsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/config/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/config/findpaths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/debugging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/deprecated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/doctest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/faulthandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/freeze_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/helpconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/hookspec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/junitxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/mark/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/mark/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/mark/legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/mark/structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/monkeypatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/nodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/nose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/outcomes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/pastebin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/pathlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/pytester.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/python_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/recwarn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/resultlog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/setuponly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/setupplan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/skipping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/stepwise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/terminal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/tmpdir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/warning_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/_pytest/warnings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/_funcs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/_make.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/_version_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/_version_info.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/converters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/converters.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/exceptions.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/filters.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attr/validators.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attrs-19.3.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attrs-19.3.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attrs-19.3.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attrs-19.3.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attrs-19.3.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/attrs-19.3.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click-7.1.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click-7.1.2.dist-info/LICENSE.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click-7.1.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click-7.1.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click-7.1.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click-7.1.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/_bashcomplete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/_termui_impl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/_textwrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/_unicodefun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/_winconsole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/globals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/termui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/click/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver-0.1.0.dist-info/AUTHORS.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver-0.1.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver-0.1.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver-0.1.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver-0.1.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver-0.1.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver-0.1.0.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver-0.1.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/driver/driver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools-8.2.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools-8.2.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools-8.2.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools-8.2.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools-8.2.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools-8.2.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools/more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools/more.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools/recipes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/more_itertools/recipes.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging-20.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging-20.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging-20.3.dist-info/LICENSE.APACHE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging-20.3.dist-info/LICENSE.BSD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging-20.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging-20.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging-20.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging-20.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/_typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy-0.13.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy-0.13.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy-0.13.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy-0.13.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy-0.13.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy-0.13.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy/_tracing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy/callers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy/hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pluggy/manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py-1.8.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py-1.8.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py-1.8.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py-1.8.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py-1.8.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py-1.8.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/__metainfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_builtin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_code/_assertionnew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_code/_assertionold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_code/_py2traceback.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_code/assertion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_code/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_code/source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_io/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_io/capture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_io/saferepr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_io/terminalwriter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_log/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_log/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_log/warning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_path/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_path/cacheutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_path/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_path/local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_path/svnurl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_path/svnwc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_process/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_process/cmdexec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_process/forkedfunc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_process/killproc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_std.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_vendored_packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_vendored_packages/apipkg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_vendored_packages/iniconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/_xmlgen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/py/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pyparsing-2.4.7.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pyparsing-2.4.7.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pyparsing-2.4.7.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pyparsing-2.4.7.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pyparsing-2.4.7.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pyparsing-2.4.7.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pyparsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pytest-5.4.2.dist-info/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pytest-5.4.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pytest-5.4.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pytest-5.4.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pytest-5.4.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pytest-5.4.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pytest-5.4.2.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pytest-5.4.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pytest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pytest/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/six-1.14.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/six-1.14.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/six-1.14.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/six-1.14.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/six-1.14.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/six-1.14.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth-0.1.9.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth-0.1.9.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth-0.1.9.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth-0.1.9.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth-0.1.9.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth-0.1.9.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth-0.1.9.dist-info/zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth/table_wide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth/table_zero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth/tests/test_core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/wcwidth/wcwidth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kursselenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kursselenium.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear_imput.py" beforeDir="false" afterPath="$PROJECT_DIR$/clear_imput.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/click.me.twice.py" beforeDir="false" afterPath="$PROJECT_DIR$/click.me.twice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/element_enabled.py" beforeDir="false" afterPath="$PROJECT_DIR$/element_enabled.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frame.test.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame.test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hover.py" beforeDir="false" afterPath="$PROJECT_DIR$/hover.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laczenie_akcji.py" beforeDir="false" afterPath="$PROJECT_DIR$/laczenie_akcji.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operacje@js.py" beforeDir="false" afterPath="$PROJECT_DIR$/operacje@js.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prawy_przycisk_myszy.py" beforeDir="false" afterPath="$PROJECT_DIR$/prawy_przycisk_myszy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/przeciagniecie_pliku.py" beforeDir="false" afterPath="$PROJECT_DIR$/przeciagniecie_pliku.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots2/przed.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots2/przed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/upload_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaladowanie@pliku.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaladowanie@pliku.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +285,19 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/drivers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pytest.projects/.pytest_cache" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pytest.projects/.pytest_cache" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.element_enabled">
-    <configuration name="element_enabled" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.hotel_test">
+    <configuration name="hotel_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kursselenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +309,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/element_enabled.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hotel_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +318,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="laczenie_akcji" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lambdda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kursselenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,7 +330,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/laczenie_akcji.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lambdda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +339,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="przeciagniecie_pliku" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_demo_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kursselenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +347,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest.projects/.pytest_cache" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/przeciagniecie_pliku.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytest.projects/.pytest_cache/test_demo_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +360,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="upload_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_pytest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kursselenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,11 +368,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest.projects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/upload_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytest.projects/test_pytest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,34 +381,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zaladowanie@pliku" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for dodawanie_dolne_test.test_dodawania" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="kursselenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest.projects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zaladowanie@pliku.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dodawanie_dolne_test.test_dodawania&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.element_enabled" />
-        <item itemvalue="Python.upload_file" />
-        <item itemvalue="Python.zaladowanie@pliku" />
-        <item itemvalue="Python.laczenie_akcji" />
-        <item itemvalue="Python.przeciagniecie_pliku" />
+        <item itemvalue="Python.hotel_test" />
+        <item itemvalue="Python.test_pytest" />
+        <item itemvalue="Python tests.pytest for dodawanie_dolne_test.test_dodawania" />
+        <item itemvalue="Python.test_demo_page" />
+        <item itemvalue="Python.lambdda" />
       </list>
     </recent_temporary>
   </component>
@@ -220,31 +449,33 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586245380725" />
-    <state x="421" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589288181464">
+    <state x="421" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589379782527">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="421" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821@0.23.1440.821" timestamp="1589288181464" />
+    <state x="421" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821@0.23.1440.821" timestamp="1589379782527" />
     <state x="421" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.825@0.23.1440.825" timestamp="1586535637973" />
     <state x="342" y="35" key="CommitChangelistDialog2" timestamp="1585643382227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="342" y="35" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585643382227" />
     <state x="342" y="55" key="CommitChangelistDialog2/0.23.1440.823@0.23.1440.823" timestamp="1585600191574" />
-    <state width="1419" height="135" key="GridCell.Tab.0.bottom" timestamp="1589364808949">
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom" timestamp="1589552672475">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1419" height="194" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586252354595" />
+    <state width="1419" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589438556590" />
     <state width="1899" height="162" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586424601578" />
     <state width="1419" height="194" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1585603107848" />
-    <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1589362711097" />
-    <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1589362753675" />
-    <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1589364808949" />
-    <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1589357206528" />
-    <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1589357615272" />
-    <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1589357628990" />
-    <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1589274507901" />
-    <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1589274618797" />
-    <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1589274756462" />
+    <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1589387132207" />
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1589440059164" />
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1589552564503" />
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1589552640188" />
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1589552672475" />
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1589449359369" />
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1589441493292" />
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1589441870334" />
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1589441890713" />
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1589552429175" />
+    <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1589552460084" />
     <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1589274778419" />
     <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1587918768031" />
     <state width="1419" height="135" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1587918823595" />
@@ -253,21 +484,23 @@
     <state width="1419" height="162" key="GridCell.Tab.0.bottom/0.23.1920.988@0.23.1920.988" timestamp="1586421987413" />
     <state width="1419" height="162" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586422920677" />
     <state width="1419" height="162" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1586422980931" />
-    <state width="1419" height="135" key="GridCell.Tab.0.center" timestamp="1589364808948">
+    <state width="1419" height="136" key="GridCell.Tab.0.center" timestamp="1589552672474">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1419" height="194" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586252354594" />
+    <state width="1419" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589438556589" />
     <state width="1899" height="162" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586424601578" />
     <state width="1419" height="194" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1585603107847" />
-    <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1589362711096" />
-    <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1589362753673" />
-    <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1589364808948" />
-    <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1589357206527" />
-    <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1589357615272" />
-    <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1589357628990" />
-    <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1589274507899" />
-    <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1589274618796" />
-    <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1589274756461" />
+    <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1589387132207" />
+    <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1589440059163" />
+    <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1589552564502" />
+    <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1589552640187" />
+    <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1589552672474" />
+    <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1589449359368" />
+    <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1589441493292" />
+    <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1589441870334" />
+    <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1589441890713" />
+    <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1589552429161" />
+    <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1589552460083" />
     <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1589274778418" />
     <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1587918768030" />
     <state width="1419" height="135" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1587918823594" />
@@ -276,21 +509,23 @@
     <state width="1419" height="162" key="GridCell.Tab.0.center/0.23.1920.988@0.23.1920.988" timestamp="1586421987412" />
     <state width="1419" height="162" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1586422920677" />
     <state width="1419" height="162" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1586422980930" />
-    <state width="1419" height="135" key="GridCell.Tab.0.left" timestamp="1589364808948">
+    <state width="1419" height="136" key="GridCell.Tab.0.left" timestamp="1589552672474">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1419" height="194" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586252354593" />
+    <state width="1419" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589438556588" />
     <state width="1899" height="162" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586424601577" />
     <state width="1419" height="194" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1585603107847" />
-    <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1589362711096" />
-    <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1589362753673" />
-    <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1589364808948" />
-    <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1589357206527" />
-    <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1589357615271" />
-    <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1589357628989" />
-    <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1589274507898" />
-    <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1589274618796" />
-    <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1589274756461" />
+    <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1589387132206" />
+    <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1589440059162" />
+    <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1589552564502" />
+    <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1589552640186" />
+    <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1589552672474" />
+    <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1589449359368" />
+    <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1589441493291" />
+    <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1589441870333" />
+    <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1589441890712" />
+    <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1589552429158" />
+    <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1589552460082" />
     <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1589274778417" />
     <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1587918768030" />
     <state width="1419" height="135" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1587918823594" />
@@ -299,21 +534,23 @@
     <state width="1419" height="162" key="GridCell.Tab.0.left/0.23.1920.988@0.23.1920.988" timestamp="1586421987412" />
     <state width="1419" height="162" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1586422920676" />
     <state width="1419" height="162" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1586422980930" />
-    <state width="1419" height="135" key="GridCell.Tab.0.right" timestamp="1589364808949">
+    <state width="1419" height="136" key="GridCell.Tab.0.right" timestamp="1589552672474">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1419" height="194" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586252354594" />
+    <state width="1419" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589438556589" />
     <state width="1899" height="162" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586424601578" />
     <state width="1419" height="194" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1585603107848" />
-    <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1589362711097" />
-    <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1589362753674" />
-    <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1589364808949" />
-    <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1589357206528" />
-    <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1589357615272" />
-    <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1589357628990" />
-    <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1589274507900" />
-    <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1589274618796" />
-    <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1589274756462" />
+    <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1589387132207" />
+    <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1589440059163" />
+    <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1589552564502" />
+    <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1589552640188" />
+    <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1589552672474" />
+    <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1589449359369" />
+    <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1589441493292" />
+    <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1589441870334" />
+    <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1589441890713" />
+    <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1589552429170" />
+    <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1589552460083" />
     <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1589274778419" />
     <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1587918768030" />
     <state width="1419" height="135" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1587918823595" />
@@ -322,46 +559,51 @@
     <state width="1419" height="162" key="GridCell.Tab.0.right/0.23.1920.988@0.23.1920.988" timestamp="1586421987412" />
     <state width="1419" height="162" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1586422920677" />
     <state width="1419" height="162" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1586422980931" />
-    <state width="1419" height="256" key="GridCell.Tab.1.bottom" timestamp="1586598191899">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1419" height="262" key="GridCell.Tab.1.bottom" timestamp="1589455403296">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586033429740" />
+    <state width="1419" height="262" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1589455403296" />
     <state width="1419" height="256" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586598191899" />
     <state width="1419" height="256" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1586536793590" />
     <state width="1419" height="256" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1586536847364" />
     <state width="1419" height="256" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1586536900235" />
     <state width="1419" height="256" key="GridCell.Tab.1.bottom/0.23.1440.833@0.23.1440.833" timestamp="1586536904115" />
-    <state width="1419" height="256" key="GridCell.Tab.1.center" timestamp="1586598191899">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1419" height="262" key="GridCell.Tab.1.center" timestamp="1589455403296">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586033429740" />
+    <state width="1419" height="262" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1589455403296" />
     <state width="1419" height="256" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1586598191899" />
     <state width="1419" height="256" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1586536793590" />
     <state width="1419" height="256" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1586536847363" />
     <state width="1419" height="256" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1586536900234" />
     <state width="1419" height="256" key="GridCell.Tab.1.center/0.23.1440.833@0.23.1440.833" timestamp="1586536904114" />
-    <state width="1419" height="256" key="GridCell.Tab.1.left" timestamp="1586598191899">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1419" height="262" key="GridCell.Tab.1.left" timestamp="1589455403295">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586033429740" />
+    <state width="1419" height="262" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1589455403295" />
     <state width="1419" height="256" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1586598191899" />
     <state width="1419" height="256" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1586536793589" />
     <state width="1419" height="256" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1586536847363" />
     <state width="1419" height="256" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1586536900234" />
     <state width="1419" height="256" key="GridCell.Tab.1.left/0.23.1440.833@0.23.1440.833" timestamp="1586536904112" />
-    <state width="1419" height="256" key="GridCell.Tab.1.right" timestamp="1586598191899">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1419" height="262" key="GridCell.Tab.1.right" timestamp="1589455403296">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586033429740" />
+    <state width="1419" height="262" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1589455403296" />
     <state width="1419" height="256" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1586598191899" />
     <state width="1419" height="256" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1586536793590" />
     <state width="1419" height="256" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1586536847364" />
     <state width="1419" height="256" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1586536900235" />
     <state width="1419" height="256" key="GridCell.Tab.1.right/0.23.1440.833@0.23.1440.833" timestamp="1586536904114" />
-    <state x="221" y="104" key="SettingsEditor" timestamp="1586265048011">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="221" y="104" key="SettingsEditor" timestamp="1589533464196">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586251684052" />
+    <state x="221" y="104" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1589533464196" />
     <state x="221" y="104" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1586265048011" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585643423908">
       <screen x="0" y="0" width="1440" height="900" />
@@ -408,6 +650,11 @@
           <url>file://$PROJECT_DIR$/obsluga_bledu.py</url>
           <line>7</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pytest.projects/test_pytest.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
